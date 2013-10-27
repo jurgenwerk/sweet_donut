@@ -9,29 +9,29 @@ Written in CoffeeScript, but there is also a plain JS version for those who don'
 It is certainly not very hard to use this plugin.
 
 
-1. Stick a canvas element somewhere in your code:
+1.Stick a canvas element somewhere in your code:
 
 ```
-  <canvas id="donut-chart" width="300" height="300"></canvas>
+<canvas id="donut-chart" width="300" height="300"></canvas>
 ```
-
-2. Define some data and draw the donut on your canvas:
+2.Define some data and draw the donut on your canvas:
 
 ```
 $(document).ready(function() {
-	  var props;
-	  props = {
-	    "data": [2,7,4,5,10, 2,6,5],
-	    "shade_factor": "-14", // OPTIONAL. It defines the color shadiness on the inner donut edge.
-	    "shade_area_percent": "0.31", //OPTIONAL. It defines the width of shady area.
-	    "inner_area_factor": "0.5" //OPTIONAL. It defines how big the inner blank circle is. 
-	  };
+  var props;
+  props = {
+    "data": [2,7,4,5,10, 2,6,5],
+    "shade_factor": "-14", // OPTIONAL. It defines the color shadiness on the inner donut edge.
+    "shade_area_percent": "0.31", //OPTIONAL. It defines the width of shady area.
+    "inner_area_factor": "0.5" //OPTIONAL. It defines how big the inner blank circle is. 
+  };
 
-	  $('#donut-chart').drawDonut(props);
-	});
+  $('#donut-chart').drawDonut(props);
+});
 ```
-3. ???
-4. Profit!
+3.???
+
+4.Profit!
 
 Here are some examples of rendered donuts:
 
