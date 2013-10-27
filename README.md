@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 4.Profit!
 
-Here are some examples of rendered donuts with default chunk colors:
+Here are some examples of rendered donuts with default (randomly chosen) chunk colors:
 
 ![](https://raw.github.com/matixmatix/sweet_donut/master/rendered%20examples/1.PNG)
 ![](https://raw.github.com/matixmatix/sweet_donut/master/rendered%20examples/2.PNG)
