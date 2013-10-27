@@ -10,9 +10,10 @@
     $(document).ready(function() {
 		  var props;
 		  props = {
-		    "data": [15, 10, 20, 7, 7, 9],
-		    "shade_factor": "-8",
-		    "shade_area_percent": "0.33"
+		    "data": [2,7,4,5,10, 2,6,5],
+		    "shade_factor": "-14",
+		    "shade_area_percent": "0.31",
+		    "inner_area_factor": "0.5"
 		  };
 		  $('#cake-chart').drawDonut(props);
 		});
@@ -20,7 +21,7 @@
   </head>
   <body>
     <div class="cake-chart">
-	    <canvas id="cake-chart" width="400" height="400"></canvas>
+	    <canvas id="cake-chart" width="300" height="300"></canvas>
 	  </div>
   </body>
 </html>
