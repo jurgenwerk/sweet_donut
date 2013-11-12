@@ -7,7 +7,7 @@ class DonutGrapher
 	constructor: (canvas, props) ->
 		@canvas = canvas[0]
 		@props = props
-
+	
 		@data = props["data"]
 		@colors = @getProperty("colors", @getRandomColors(@data.length))
 		@shade_factor = parseFloat(@getProperty("shade_factor", -12))
