@@ -1,13 +1,9 @@
 Sweet Donut
 ===========
 
-A simple jQuery plugin for making sweet ass donut charts on HTML5 Canvas elements! Unfortunately, it does not include a legend/annotations YET, so you'll have to code it by yourself. 
+A jQuery plugin for making sweet ass donut charts on HTML5 Canvas elements (see examples below).
 
-Written in CoffeeScript, but there is also a plain JS version for those who don't believe in CoffeeScript's magical powers.
-
-
-It is certainly not very hard to use this plugin.
-
+Usage:
 
 1.Stick a canvas element somewhere in your code:
 
