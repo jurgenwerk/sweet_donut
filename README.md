@@ -14,13 +14,12 @@ Usage:
 
 ```
 $(document).ready(function() {
-  var props;
-  props = {
-    "data": [2,7,4], 
+  var props = {
+    "data": [2,7,4],
     "colors": ["#3498db", "#d35400", "#1abc9c"], // OPTIONAL. If you want to make your colors static and fixed, use this. Otherwise random colors will be chosen.
     "shade_factor": "-14", // OPTIONAL. It defines the color shadiness on the inner donut edge.
     "shade_area_percent": "0.31", //OPTIONAL. It defines the width of shady area.
-    "inner_area_factor": "0.5" //OPTIONAL. It defines how big the inner blank circle is. 
+    "inner_area_factor": "0.5" //OPTIONAL. It defines how big the inner blank circle is.
   };
 
   $('#donut-chart').drawDonut(props);
