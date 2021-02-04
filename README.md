@@ -1,7 +1,7 @@
 Sweet Donut
 ===========
 
-A jQuery plugin for making sweet ass donut charts on HTML5 Canvas elements (see examples below).
+A jQuery plugin for drawing sweet donut charts on HTML5 Canvas elements (see examples below).
 
 Usage:
 
